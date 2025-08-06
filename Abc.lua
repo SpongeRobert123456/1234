@@ -4,3 +4,8 @@ function convert(f)
 end
 
 print(convert(94))
+
+input = io.read("Enter a number: ")
+
+local l = (input - 32) * (5 / 9)
+print(l)
